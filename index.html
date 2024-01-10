@@ -11,30 +11,31 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select name="" id="">
+      <select name="" id="city">
         <option value="">Select a city...</option>
-        <option value="">New York 🇺🇸</option>
-        <option value="">Sao Paulo 🇧🇷</option>
-        <option value="">London 🇬🇧</option>
+        <option value="America/New_York">New York 🇺🇸</option>
+        <option value="America/Sao_Paulo">Sao Paulo 🇧🇷</option>
+        <option value="Europe/London">London 🇬🇧</option>
       </select>
 
-      <div class="city" id="paris">
-        <div>
-          <h2>Paris 🇫🇷</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris 🇫🇷</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small>AM</small></div>
         </div>
-        <div class="time"><small>AM</small></div>
-      </div>
 
-      <div class="city" id="houston">
-        <div>
-          <h2>Houston 🇺🇸</h2>
-          <div class="date">August 15th 2022</div>
+        <div class="city" id="houston">
+          <div>
+            <h2>Houston 🇺🇸</h2>
+            <div class="date">August 15th 2022</div>
+          </div>
+          <div class="time">1:48:15 <small>AM</small></div>
         </div>
-        <div class="time">1:48:15 <small>AM</small></div>
       </div>
     </div>
-
     <footer>
       This project was coded with 💛 by <strong>Thais Roome</strong> and is
       <a href="https://github.com/thais-roome" target="_blank">
